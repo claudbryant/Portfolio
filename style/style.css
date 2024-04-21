@@ -1,0 +1,139 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu a{
+    text-decoration: none;
+}
+.prthome{
+    margin-left: 100px;
+    margin-right: 625px;
+    font-size: 30px;
+    font-family: "pacifico";
+}
+span{color: red;}
+
+a.homeright{padding-right: 10 px;
+color: white;
+font-weight: 500;
+font-size: x-large;
+}
+header{
+  background-size: cover;
+  background-image: url(/IMG/bannernew.jpg);
+  min-height: 500px; 
+}
+.home-content .text-1 {
+  font-size: 27px;
+  color: white;
+}
+.home-content .text-2 {
+  font-size: 75px;
+  font-weight: 600;
+  margin-left: -3px;
+  color: white;
+}
+.home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+  color: white;
+}
+.max-width{
+  max-width: 1300px;
+  padding-top: 0px;
+  padding-right: 80px;
+  padding-bottom: 0px;
+  padding-left: 80px;
+}
+
+.home-content a {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 25px;
+  padding: 8px 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+ /* button style */
+button {
+  display: inline-block;
+  background: crimson;
+  color: #fff;
+  font-size: 25px;
+  padding: 8px 20px;
+  margin-top: 20px;
+  border-radius: 6px;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+}
+.web {
+  color: #fff;
+  font-size: 25px;
+}        
+section {
+  padding: 100px 0;
+}
+.about,
+.skills,
+.projects,
+.contact,
+footer {
+  font-family: "Poppins", sans-serif;
+  border-style: solid;
+  border-color: rgb(126, 121, 121) 
+  border-radius: 100%;
+  border-radius: 5px / 5px;
+}
+.about .about-content,
+.skills .skills-content,
+.contact .contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+section .title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+}
+.button1 .icon i {
+  font-size: 18px;
+  line-height: 45px;
+  color: crimson;
+}
+img {
+  border: 5px solid #555;
+  size: 30px;
+  
+}
+projects-content {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 60px;
+  padding-bottom: 20px;
+  font-family: "Ubuntu", sans-serif;
+  background-color: black;
+}
+.skills{
+  background-color: black;
+  color: white;
+}
+.contact{
+  background-color: black;
+  color: white;
+}
