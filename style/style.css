@@ -16,17 +16,21 @@
     font-size: 30px;
     font-family: "pacifico";
 }
-span{color: red;}
+span{color: white;}
 
-a.homeright{padding-right: 10 px;
+.homeright{padding-right: 50px;
 color: white;
 font-weight: 500;
 font-size: x-large;
 }
+
 header{
   background-size: cover;
   background-image: url(/IMG/bannernew.jpg);
-  min-height: 500px; 
+  height: 80vh;
+  background-size: 70%;
+  min-height: 500px;
+  background-attachment: fixed; 
 }
 .home-content .text-1 {
   font-size: 27px;
@@ -136,4 +140,7 @@ projects-content {
 .contact{
   background-color: black;
   color: white;
+}
+Nav.menu{
+  background-color: crimson;
 }
