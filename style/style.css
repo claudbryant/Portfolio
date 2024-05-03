@@ -26,11 +26,12 @@ font-size: x-large;
 
 header{
   background-size: cover;
-  background-image: url(/Portfolio/IMG/bannernew.jpg);
+  background-image: url(/Portfolio/IMG/dataCenter.jpg);
   height: 80vh;
   background-size: 70%;
   min-height: 500px;
   background-attachment: fixed; 
+  background-position: center;
 }
 .home-content .text-1 {
   font-size: 27px;
@@ -43,6 +44,11 @@ header{
   color: white;
 }
 .home-content .text-3 {
+  font-size: 40px;
+  margin: 5px 0;
+  color: white;
+}
+.typing {
   font-size: 40px;
   margin: 5px 0;
   color: white;
